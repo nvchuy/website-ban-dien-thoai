@@ -1,0 +1,159 @@
+.navbar-brand {
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+}
+
+.navbar-brand:hover {
+    color: #000;
+}
+
+
+.form-inline {
+    float: left;
+}
+
+button {
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.btn-brand:hover {
+    background: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.pName {
+    min-height: 50px;
+}
+
+.pImage {
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+#subBtn {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .7);
+}
+
+#addBtn {
+    border-radius: 0;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, .7);
+}
+
+#pQuantity {
+    max-width: 50px;
+    text-align: center;
+}
+
+#dropdownMenuButton {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+#user_image {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.card {
+    max-height: 409px;
+}
+
+.card-img-top {
+    min-width: 253px;
+    min-height: 253px;
+    object-fit: contain;
+}
+
+a:not([href]):not([tabindex]) {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:not([href]):not([tabindex]):hover {
+    background: white;
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.price {
+    color: red;
+}
+
+.modal {
+    position: fixed;
+    margin: 0 auto !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%);
+}
+
+.modal-body {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image {
+    background-size: contain;
+    width: 500px;
+    height: 500px;
+}
+
+.capacity {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.color {
+    background-color: #fff;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.dropdown {
+    display: inline-block;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.order:hover {
+    background: rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+.return-order-page:hover {
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}

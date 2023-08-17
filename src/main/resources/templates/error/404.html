@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đã có lỗi xảy ra</title>
+    <style>
+        h1 {
+            font-size: 100px;
+        }
+
+        body {
+            margin: auto;
+            width: 50%;
+            padding: 100px;
+
+        }
+    </style>
+</head>
+
+<body>
+<h1>MÃ LỖI 404</h1>
+<h3>TRANG NÀY KHÔNG TÌM THẤY <br> ĐIỀU NÀY KHÔNG THỂ THỰC HIỆN <br> Vui lòng thử lại</h3><br>
+<a th:href="@{'/store'}">Nhấn để quay lại trang chủ</a>
+</body>
+</html>
